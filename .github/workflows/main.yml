@@ -1,0 +1,13 @@
+name: CD for Development
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cicd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HELLO WORLD
+        run: echo "HELLO WORLD, THIS IS GITHUB ACTION!!!! ITS GOOD"
